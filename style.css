@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.firstPage{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("assets/img/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.quizBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 6vh;
+width: 12vw;
+color: white;
+background-color: #0267C1;
+position:static;
+cursor: pointer;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-color: #000000;
+    overflow:hidden;
+}
+.secondPage{
+    color: black;
+    margin: 20px;
+    width: 97vw;
+    height: auto;
+   background-color: #F72798;
+   border-radius: 1vh;
+}
+.que{
+    margin:10px;
+    padding: 5px;
+}
+.option{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:30vw;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.question p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F57D1F;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 2px;
+    height: 10%;
+    width: 10%;
+    position: fixed;
+    left: 80%;
+    top: 0;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    background-color: #EBF400;
+    height: 5vh;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 2px;
+    color: black;
+}
+
+/* third page csss */
+.thirdPage{
+visibility: hidden;
+height: 120vh;
+width: 100vw;
+background-color: #F57D1F;
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
